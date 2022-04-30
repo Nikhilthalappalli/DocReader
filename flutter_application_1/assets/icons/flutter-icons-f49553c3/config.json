@@ -1,0 +1,54 @@
+{
+  "name": "",
+  "css_prefix_text": "",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "2aceadb0813e312048e89eb75dc7e1f3",
+      "css": "home2",
+      "code": 59392,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M500 87.5L41.7 500 166.7 500 166.7 875 458.3 875 458.3 625 541.7 625 541.7 875 833.3 875 833.3 500 958.3 500 500 87.5ZM500 199.6L750 424.6 750 458.3 750 791.7 625 791.7 625 541.7 375 541.7 375 791.7 250 791.7 250 424.6 500 199.6Z",
+        "width": 1000
+      },
+      "search": [
+        "home2"
+      ]
+    },
+    {
+      "uid": "d4f8b024a3137a1a725627e2ec3a9fee",
+      "css": "query_builder",
+      "code": 59393,
+      "src": "material"
+    },
+    {
+      "uid": "f4f0e849b805be1f6d76b65581cb3b8b",
+      "css": "align-left",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "022aa81f128f4f238e87bf81d0448166",
+      "css": "format_align_left",
+      "code": 59395,
+      "src": "material"
+    },
+    {
+      "uid": "b859093f50cc7660b1a8c8f5558ca1d0",
+      "css": "align_right",
+      "code": 61496,
+      "src": "fontawesome5"
+    },
+    {
+      "uid": "9fa6a125e9296b86a2fff3074c784116",
+      "css": "sliders_h",
+      "code": 61918,
+      "src": "fontawesome5"
+    }
+  ]
+}
