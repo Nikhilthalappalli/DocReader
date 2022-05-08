@@ -158,3 +158,16 @@ class SearchBar extends StatelessWidget {
 //     );
 //   }
 // }
+
+
+// itemBuilder: (context, index) {
+//             return GestureDetector(
+//                 onTap: () {
+//                   Navigator.push(
+//                     context,
+//                     MaterialPageRoute(builder: (context) => DetailScreen(item: _itemList[index])),
+//                   );
+//                 },
+//                 child: Container(margin: EdgeInsets.all(20), child: Text(_itemList[index].title)));
+//           },
+        

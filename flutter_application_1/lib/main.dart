@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_application_1/models/medicine.dart';
+import 'package:flutter_application_1/screens/detail/detail_page.dart';
 import 'package:flutter_application_1/screens/home/home.dart';
+import 'package:flutter_application_1/utils/colors.dart';
 // import 'dart:html';
 
 void main() {
@@ -19,6 +22,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'DocReader APP',
+      theme: ThemeData(
+        primaryColor: AppColors.mainColor,
+      ),
       home: Homepage(),
     );
   }
