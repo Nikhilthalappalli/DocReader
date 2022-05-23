@@ -8,6 +8,8 @@ import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 import '../../utils/colors.dart';
 import 'dart:io';
+import 'package:path/path.dart';
+import 'package:path_provider/path_provider.dart';
 
 import '../../widgets/body.dart';
 
@@ -93,14 +95,14 @@ class _HomepageState extends State<Homepage> {
           SizedBox(
             height: 25,
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: _tags
-                .asMap()
-                .entries
-                .map((MapEntry map) => _buildTags(map.key))
-                .toList(),
-          ),
+          // Row(
+          //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          //   children: _tags
+          //       .asMap()
+          //       .entries
+          //       .map((MapEntry map) => _buildTags(map.key))
+          //       .toList(),
+          // ),
           // Expanded(
           //     flex: 8,
           //     child: SingleChildScrollView(

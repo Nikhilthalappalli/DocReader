@@ -49,13 +49,13 @@ class _NavBarState extends State<NavBar> {
       height: 60,
       decoration: BoxDecoration(
           color: AppColors.mainColor,
-          boxShadow: [
-            BoxShadow(
-              offset: Offset(0, -10),
-              blurRadius: 35,
-              color: AppColors.mainColor.withOpacity(0.38),
-            ),
-          ],
+          // boxShadow: [
+          //   BoxShadow(
+          //     offset: Offset(0, -10),
+          //     blurRadius: 35,
+          //     color: AppColors.mainColor.withOpacity(0.38),
+          //   ),
+          // ],
           // ignore: prefer_const_constructors
           borderRadius: BorderRadius.only(
             topLeft: Radius.circular(30),
